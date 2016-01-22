@@ -12,6 +12,6 @@ package edu.blackburn.cs.cs212.labssp16;
 public class DontPutStuffHere {
     public static void main(String[] args) {
         System.out.println("Don't put stuff here!");
-        System.out.println("Create a sub-package");
+        System.out.println("Create a sub-package for the lab number and your team");
     }
 }
