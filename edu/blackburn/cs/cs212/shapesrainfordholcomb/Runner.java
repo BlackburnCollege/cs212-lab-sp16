@@ -11,4 +11,7 @@ package edu.blackburn.cs.cs212.shapesrainfordholcomb;
  */
 public class Runner {
     
+    public static void main(String[] args) {
+        
+    }
 }
