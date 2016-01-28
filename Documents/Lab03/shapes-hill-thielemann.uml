@@ -45,7 +45,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="uWtNwOC5/k+s969ST+Do1AAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="qObIs7Ia9kOPGh1Lj1+/QgAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">Bae, Rankyoung</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Class</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="+gEpJp86yUKXQ+hrpmV/IAAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -69,7 +69,7 @@
 </XPD:OBJ>
 <XPD:ATTR name="#OwnedElements" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="OwnedElements[0]" type="UMLClass" guid="YX2ZXXnaQE+QinqsL/ShxAAA">
-<XPD:ATTR name="Name" type="string">Bae, Rankyoung</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Class</XPD:ATTR>
 <XPD:REF name="Namespace">jyjECr7XW0m0f7pFzrBQ6AAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">4Vt7vR7m4EOKNpzgXy3NVgAA</XPD:REF>
