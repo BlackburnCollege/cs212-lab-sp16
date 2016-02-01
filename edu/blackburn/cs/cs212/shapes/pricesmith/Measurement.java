@@ -1,7 +1,7 @@
 package edu.blackburn.cs.cs212.shapes.pricesmith;
 
 /**
- *
+ * this is a test
  * @author olivia.price
  */
 public class Measurement {
