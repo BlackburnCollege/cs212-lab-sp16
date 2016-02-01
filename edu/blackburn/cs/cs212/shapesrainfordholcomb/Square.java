@@ -12,7 +12,6 @@ package edu.blackburn.cs.cs212.shapesrainfordholcomb;
 public class Square extends Rectangle {
     
     private Measurement side;
-    //private Measurement side2;
     
     public Square(double side1, String units) {
          super (side1, side1, units);

@@ -12,6 +12,12 @@ package edu.blackburn.cs.cs212.shapesrainfordholcomb;
 public class Runner {
     
     public static void main(String[] args) {
+        Measurement m = new Measurement(2, "inches");
+        Rectangle r = new Rectangle(2, 4, "inches");
+        Square s = new Square(2, "inches");
         
+        System.out.println(m);
+        System.out.println(r);
+        System.out.println(s);
     }
 }
