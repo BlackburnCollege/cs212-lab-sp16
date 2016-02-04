@@ -12,17 +12,19 @@ package edu.blackburn.cs.cs212.bank.muellervanwormer;
 public abstract class Account {
     
     private Money balance;
+    private double money;
 
     public Account(Money balance) {
         this.balance = balance;
     }
     
     private void setBalance(Money m) {
-        
+        this.balance = m;
     }
     
     public Money getBalance() {
-        return new Money("francs", 2500000);
+        //return new Money("francs", 2500000);
+        return balance;
     }
     
     protected void debit(Money m) {
@@ -34,11 +36,11 @@ public abstract class Account {
     }
     
     public void deposit(Money m) {
-        
+        this.balance = balance.add(m);
     }
     
     public void withdraw(Money m) {
-        
+        this.balance = balance.sub(m);
     }
     
 }

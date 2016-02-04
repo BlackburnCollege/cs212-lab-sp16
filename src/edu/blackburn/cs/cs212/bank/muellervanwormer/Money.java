@@ -12,7 +12,7 @@ package edu.blackburn.cs.cs212.bank.muellervanwormer;
 public class Money {
     
     private String currency;
-    private double amount;
+    private final double amount;
 
     public Money(String currency, double amount) {
         this.currency = currency;
@@ -29,6 +29,13 @@ public class Money {
     
     public String toString() {
         return this.currency + this.amount;
+    }
+    
+    public Money add(Money other) {
+        return new Money(currency, amount + other.getAmount());
+    }
+    public Money sub(Money other) {
+        return new Money(currency, amount - other.getAmount());
     }
     
 }
