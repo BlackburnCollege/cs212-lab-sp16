@@ -28,7 +28,19 @@ public class Money {
     }
     
     public String toString() {
-        return this.currency + this.amount;
+        return this.currency + " " + this.amount;
+    }
+    
+    public Money add(Money money1){
+        double holdAmount = money1.getAmount() + this.getAmount();
+        String holdCurrency = this.getCurrency();
+        return new Money(holdCurrency, holdAmount);
+    }
+    
+    public Money subtract(Money money1){
+        double holdAmount = this.getAmount() - money1.getAmount();
+        String holdCurrency = this.getCurrency();
+        return new Money(holdCurrency, holdAmount);
     }
     
 }

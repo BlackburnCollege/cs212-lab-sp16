@@ -18,27 +18,27 @@ public abstract class Account {
     }
     
     private void setBalance(Money m) {
-        
+        balance = m;
     }
     
     public Money getBalance() {
-        return new Money("francs", 2500000);
+        return this.balance;
     }
     
     protected void debit(Money m) {
-        
+        //????
     }
     
     protected void credit(Money m) {
-        
+        //Credit is basically a deposit that happens after a few days. (?)
     }
     
     public void deposit(Money m) {
-        
+        balance = balance.add(m);
     }
     
     public void withdraw(Money m) {
-        
+        balance = balance.subtract(m);
     }
     
 }
