@@ -20,5 +20,10 @@ public class Runner {
         
         checking.withdraw(new Money(" Euros", 10));
         System.out.println(checking);
+        // Checking acc.
+        
+        SavingsAccount savings = new SavingsAccount(new Money(" Euros" , 100) , 
+        new Percentage(.2));
+        System.out.println(savings);
     }
 }
