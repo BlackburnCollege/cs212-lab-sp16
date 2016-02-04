@@ -10,9 +10,9 @@ package edu.blackburn.cs.cs212.bank.rekartlastname;
  * @author joshua.gross
  */
 public class Money {
-    
+
     private String currency;
-    private double amount;
+    private final double amount;
 
     public Money(String currency, double amount) {
         this.currency = currency;
@@ -26,9 +26,18 @@ public class Money {
     public double getAmount() {
         return amount;
     }
-    
+
     public String toString() {
-        return this.currency + this.amount;
+        return this.amount + this.currency;
     }
-    
+
+    public Money add(Money m) {
+        double tempAmount = this.getAmount() + m.getAmount();
+        return new Money(m.getCurrency(), tempAmount);
+    }
+
+    public Money subtract(Money m) {
+        double tempAmount = this.getAmount() - m.getAmount();
+        return new Money(m.getCurrency(), tempAmount);
+    }
 }

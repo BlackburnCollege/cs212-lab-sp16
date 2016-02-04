@@ -11,7 +11,14 @@ package edu.blackburn.cs.cs212.bank.rekartlastname;
  */
 public class Runner {
     public static void main(String[] args) {
-        Account a = new Account(new Money("donuts", 12));
-        System.out.println("a's balance = " + a.getBalance());
+       // Account a = new Account(new Money("donuts", 12));
+       // System.out.println("a's balance = " + a.getBalance());
+        CheckingAccount checking = new CheckingAccount(new Money(" Euros" , 100));
+        System.out.println(checking);
+        checking.deposit(new Money(" Euros", 25));
+        System.out.println(checking);
+        
+        checking.withdraw(new Money(" Euros", 10));
+        System.out.println(checking);
     }
 }

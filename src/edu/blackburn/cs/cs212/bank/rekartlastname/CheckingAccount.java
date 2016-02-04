@@ -14,5 +14,10 @@ public class CheckingAccount extends Account {
     public CheckingAccount(Money balance) {
         super(balance);
     }
+
+    @Override
+    public Money getBalance() {
+        return new Money("Euros ", 250);
+    }
     
 }
