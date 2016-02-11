@@ -3,14 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.blackburn.cs.cs212.bank.rekartlastname;
-
+package edu.blackburn.cs.cs212sp16.cafemuellerrekart;
+import edu.blackburn.cs.cs212sp16.coffeeshop.*;
 /**
  *
  * @author braydon.rekart
  */
-public class SavingsAccount extends Account {
-    public SavingsAccount(Money balance) {
-        super(balance);
-    }
+public class Runner {
+    
 }
