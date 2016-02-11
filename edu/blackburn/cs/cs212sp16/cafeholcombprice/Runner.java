@@ -12,9 +12,9 @@ import edu.blackburn.cs.cs212sp16.coffeeshop.*;
  */
 public class Runner {
     public static void main(String[] args) {
-        Flavor frenchVanilla = new Flavor(new Milliliter(10.0), "French Vanilla");
-        System.out.println(frenchVanilla);
         Customer c1 = new Customer("Bob");
         System.out.println(c1);
+        Flavor frenchVanilla = new Flavor(new Milliliter(10.0), "French Vanilla");
+        System.out.println(frenchVanilla);
     }
 }
