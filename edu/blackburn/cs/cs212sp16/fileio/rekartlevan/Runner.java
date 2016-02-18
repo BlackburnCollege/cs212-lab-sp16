@@ -19,6 +19,8 @@ public class Runner {
         openFile(toRead);
         openFile("incorrectfile.txt");
         readFile(toRead);
+        readClosedFile(toRead);
+        readTooFar(toRead);
 
     }
 
@@ -66,10 +68,66 @@ public class Runner {
             bufferedReader.close();
         } catch (FileNotFoundException e) {
             System.out.println("No such file.");
+
+        } catch (IOException io) {
+            System.out.println("IO exception found");
+            System.out.println("Read Checkpoint 4");
+        }
+
+        System.out.println("Read Checkpoint 3");
+        System.out.println();
+    }
+
+    public static void readClosedFile(String filename) {
+
+        System.out.println("Reading File: " + filename);
+        System.out.println("Read Checkpoint 1");
+        try {
+            FileReader fileReader = new FileReader(filename);
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
+            System.out.println("Read Checkpoint 2");
+            String tmp = "here's your file";
+            bufferedReader.close();
+            do {
+                System.out.println(tmp);
+                tmp = bufferedReader.readLine();
+            } while (tmp != null);
+
+        } catch (FileNotFoundException e) {
+            System.out.println("No such file.");
+
+        } catch (IOException io) {
+            System.out.println("IO exception found");
+            System.out.println("Read Checkpoint 4");
+        }
+
+        System.out.println("Read Checkpoint 3");
+        System.out.println();
+    }
+    public static void readTooFar(String filename) {
+
+        System.out.println("Reading File: " + filename);
+        System.out.println("Read Checkpoint 1");
+        try {
+            FileReader fileReader = new FileReader(filename);
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
+            System.out.println("Read Checkpoint 2");
+            String tmp = "here's your file";
+            do {
+                System.out.println(tmp);
+                tmp = bufferedReader.readLine();
+            } while (tmp != null);
+            tmp.length();
+            bufferedReader.close();
+        } catch (FileNotFoundException e) {
+            System.out.println("No such file.");
             
         } catch (IOException io) {
             System.out.println("IO exception found");
             System.out.println("Read Checkpoint 4");
+        } catch (NullPointerException e) {
+            System.out.println("something's really messed up now");
+            System.out.println(e);
         }
         
         System.out.println("Read Checkpoint 3");
