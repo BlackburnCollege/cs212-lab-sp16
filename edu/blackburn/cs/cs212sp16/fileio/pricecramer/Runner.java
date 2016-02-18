@@ -43,4 +43,18 @@ public class Runner {
         System.out.println("Open/Read Checkpoint 4");
         System.out.println("");
     }
+        public static void readFile(String filename){
+        System.out.println("Opening File: " + filename);
+        System.out.println("Open/Read Checkpoint 1");
+        try{
+            FileReader fr = new FileReader(filename);
+            BufferedReader br = new BufferedReader(fr);
+            System.out.println("Open/Read Checkpoint 2");
+            br.close();
+        }catch(Exception e){
+            System.out.println(e);
+        }
+        System.out.println("Open/Read Checkpoint 4");
+        System.out.println("");
+    }
 }
