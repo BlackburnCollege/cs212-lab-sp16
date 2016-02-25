@@ -1,0 +1,7 @@
+Adding JFLAC to your project
+Ashley Holcomb
+
+Download JFLAC from https://sourceforge.net/projects/jflac/?source=typ_redirect
+Extract
+In your NetBeans project, go to File, Open File, select the .jar file, Open. 
+Copy and paste the .jar into your project.
