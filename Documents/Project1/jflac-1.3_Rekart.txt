@@ -1,11 +1,22 @@
-To add a .jar file, right click on Libraries, hit ADD JAR/FOLDER, navigate to
-th
+Refers to jflac-1.3_Rekart.jar
 
-You need to import the Player.
-You will need to import IOException and LineUnavailableException.
+jflac-1.3_Rekart.jar is located in cs212-lab-sp16/Documents/Project1
 
-In a try-catch block:
+1. Copy jflac-1.3_Rekart.jar into the root directory of your project
+2. Right click your project
+3. Select Properties
+4. Then select Libraries (on the left)
+5. Click the Add JAR/Folder button
+6. Navigate to the root directory of your project
+7. Select the jflac-1.3_Rekart.jar file to add
 
-Make a new player. Call decode on that player; feed it the file path of music.
 
-That's it.
+In your Java file:
+1. Import the Player class by adding the following 
+line after the package statement: 
+import org.kc7bfi.jflac.apps.Player;
+
+2. Import IOException and LineUnavailableException by adding the following 
+lines after the package statement:
+import java.io.IOException;
+import javax.sound.sampled.LineUnavailableException;
