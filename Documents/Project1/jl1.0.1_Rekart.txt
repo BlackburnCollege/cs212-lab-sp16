@@ -1,0 +1,6 @@
+Hello. First import the JLayer library (it's assumed you have it already.)
+
+Import javazoom's player.
+
+You will then need to use a fileInputStream and a Player object. Once done, you should use one of
+the player's methods to play the song.

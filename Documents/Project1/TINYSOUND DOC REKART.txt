@@ -1,0 +1,8 @@
+Import file, sound, TinySound, and Music.
+
+Initialize tinysound.
+Make a new file with the filepath of music.
+Create a new music and load the file into tinysound's loadmusic method.
+Set play to true on your file.
+
+Put the thread to sleep to set time played.
