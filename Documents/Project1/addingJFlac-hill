@@ -1,0 +1,15 @@
+Hunter Hill
+Adding JFlac
+
+Download the zip file from: https://sourceforge.net/projects/jflac/?source=typ_redirect
+Unzip it!
+Just do it.
+Right-click the project you want to add the Jar to and go to "properties"
+From there, select "libraries" and click on the "add jar/folder" button
+Then chose from your unzipped file, inside the dist folder: "jflac-1.3"
+
+You can now import the files to use in your code!
+Use the import: import org.kc7bfi.jflac.apps.*;
+Now you will want to create a Player object, passing in no parameter
+On that Player object you should call the decode method and pass in your flac file
+Bam! You can now listen to some flac files!
