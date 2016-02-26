@@ -1,0 +1,32 @@
+jlayer is an audio library that allows java to handle mp3 file types
+
+You can reference the jlayer API documentation at http://www.javazoom.net/javalayer/docs/docs1.0/index.html
+
+I: Adding the jar file
+-----------------------
+
+1. Begin by right-clicking your homework repo in netbeans
+
+2. Select Libraries on the left side of the window
+
+3. Click the "Add JAR/Folder" button on the right side of the screen
+
+4. Navigate to the lab repo's documents folder on your flashdrive (e.g. D:\cs212-lab\cs212-lab-sp16\Documents\Project1)
+
+5. Select the j1.0.1-levan.jar file and hit open
+
+6. Press OK
+
+II: Importing
+--------------
+
+In your java file you will need to import the following packages:
+
+java.io.*;
+java.util.logging.*;
+javazoom.jl.decoder.JavaLayerException;
+javazoom.jl.player.*;
+
+
+
+
