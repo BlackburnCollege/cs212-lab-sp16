@@ -1,0 +1,14 @@
+Hunter Hill
+Add TinySound to your Project
+
+Download the zip file from http://finnkuusisto.github.io/TinySound/releases/
+Get the latest release: 1.1.1
+Unzip the file into a folder somewhere
+Right-click the project you want to add the Jar to and go to "properties"
+From there, select "libraries" and click on the "add jar/folder" button
+Then chose "tinysound-1.1.1"
+You can now use the import : import kuusisto.tinysound.*;
+First initalize TinySound by calling TinySound.init()
+Now you should be able to create a Music object, passing in a wav file
+Call play on your music object and then nothing will happen because TinySound doesn't work.
+Hurray.
