@@ -7,3 +7,8 @@ Right-click your NetBeans project. Select Properties, Libraries, Add JAR/Folder.
 Select your .jar file and click okay.
 
 To use:
+Well, I couldn't get it to work. In theory, you need to create a TinySound 
+object by calling init() and then create a Music (even though it's abstract) by 
+calling TinySound's loadMusic method and passing in the path. Then you are 
+supposed to call your Music object's Play method and set it to True. Again, I 
+couldn't get it to work this way or by passing in a URL or a File. 
