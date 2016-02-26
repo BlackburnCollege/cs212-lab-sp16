@@ -1,0 +1,12 @@
+jflac isn't too terribly bad
+
+for this, all you need to import the library's Player package
+
+which is a bit of a long import statement
+
+now make a new instance of the Player class, it needs no arguments.
+
+
+Next in a try-catch block call the decode method for Player
+
+with the file path as an argument 

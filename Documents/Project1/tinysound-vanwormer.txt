@@ -1,0 +1,10 @@
+Firstly, import the jar file for Tinysound
+
+Import Tinysound and music
+
+This api, you have to first Initialize it.
+Make a new Music using a new File that leads to your song
+Call play to run your music.
+Make sure you have something like "Press enter to continue"
+
+Run shutdown method to finish it.
