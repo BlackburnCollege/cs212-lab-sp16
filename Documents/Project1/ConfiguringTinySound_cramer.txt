@@ -1,0 +1,17 @@
+To configure the library "TinySound" into a project:
+
+First, I googled TinySound, and clicked the first link which brought me to https://github.com/finnkuusisto/TinySound, where I downloaded the files on this page.  
+
+After reading the README, I knew that I only needed to use 2 classes: Music and TinySound. 
+
+I added the TinySound library to my homework folder in Netbeans.
+
+I then created a runner in my Project1 package, and imported TinySound and Music classes from the TinySound.jar file.
+
+After reading the java.doc that was included on the page I previously mentioned, I knew that I needed to use the "TinySound.init()" method to initialize TinySound.  
+
+Next, I created a File object called "f" that was sent the String of the location of my track I wanted to play.
+
+I then created a Music object called "music" that was created with the "Tinysound.loadMusic(f)" command.
+
+Next, I just had to call the play method to music, and tell it that I did NOT want it to repeat, and then shutdown the TinySound class. 
