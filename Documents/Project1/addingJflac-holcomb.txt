@@ -1,0 +1,11 @@
+Adding JFLAC to your project
+Ashley Holcomb
+
+Download JFLAC from https://sourceforge.net/projects/jflac/?source=typ_redirect
+Extract
+Right-click your NetBeans project. Select Properties, Libraries, Add JAR/Folder. 
+Select your .jar file and click okay.
+
+To use:
+Create a Player object. Call decode on that object and pass in the file path as 
+the only parameter.

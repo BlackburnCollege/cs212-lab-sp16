@@ -1,0 +1,8 @@
+You need to import the Player.
+You will need to import IOException and LineUnavailableException.
+
+In a try-catch block:
+
+Make a new player. Call decode on that player; feed it the file path of music.
+
+That's it.
