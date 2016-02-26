@@ -1,0 +1,14 @@
+To configure the library "J;ayer" into a project:
+
+First, I googled JLayer, and clicked the first link which brought me to http://www.javazoom.net/javalayer/sources.html, where I downloaded the files on this page.  
+
+I added the JLayer library to my homework folder in Netbeans.
+
+I then created a runner in my Project1 package, and imported the Player class from the JLayer.jar file.
+
+After reading the java.doc for JLayer, I created a FileInputStream object called "f" that was sent the String of the location of my track I wanted to play in the form of 
+File.  
+
+I then created a Player object called "runner" that was created with the Player constructor with "f" in it.
+
+Next, I just had to call the play method to runner.
