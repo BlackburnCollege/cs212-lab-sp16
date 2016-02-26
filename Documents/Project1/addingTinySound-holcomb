@@ -1,7 +1,0 @@
-Adding TinySound
-Ashley Holcomb
-
-Download from http://finnkuusisto.github.io/TinySound/releases/
-Extract
-In your NetBeans project, go to File, Open File, select the .jar file, Open. 
-Copy and paste the .jar into your project.
