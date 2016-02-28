@@ -1,6 +1,18 @@
-Hello. First import the JLayer library (it's assumed you have it already.)
 
-Import javazoom's player.
+Refers to jl1.0.1_Rekart.jar
+jl1.0.1_Rekart.jar is located in cs212-lab-sp16/Documents/Project1
 
-You will then need to use a fileInputStream and a Player object. Once done, you should use one of
-the player's methods to play the song.
+1. Copy jl1.0.1_Rekart.jar into the root directory of your project
+2. Right click your project
+3. Select Properties
+4. Then select Libraries (on the left)
+5. Click the Add JAR/Folder button
+6. Navigate to the root directory of your project
+7. Select the jflac-1.3_Rekart.jar file to add
+
+In your Java file:
+1. Import the Player class by adding the following 
+line after the package statement: 
+
+import java.io.FileInputStream;
+import javazoom.jl.player.Player;

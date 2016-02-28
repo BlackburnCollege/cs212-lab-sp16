@@ -1,10 +1,19 @@
-Import file, sound, TinySound, and Music.
+Refers to tinysound-1.1.1_Rekart.jar
+tinysound-1.1.1_Rekart.jar is located in cs212-lab-sp16/Documents/Project1
 
-Initialize tinysound.
-Make a new file with the filepath of music.
-Create a new music and load the file into tinysound's loadmusic method.
-Set play to true on your file.
+1. Copy tinysound-1.1.1_Rekart.jar into the root directory of your project
+2. Right click your project
+3. Select Properties
+4. Then select Libraries (on the left)
+5. Click the Add JAR/Folder button
+6. Navigate to the root directory of your project
+7. Select the tinysound-1.1.1_Rekart.jar file to add
 
-Put the thread to sleep to set time played.
+In your Java file:
+1. Import the Player class by adding the following 
+line after the package statement: 
 
-http://finnkuusisto.github.io/TinySound/doc/ is the documentation.
+import java.io.File;
+import kuusisto.tinysound.Sound;
+import kuusisto.tinysound.TinySound;
+import kuusisto.tinysound.Music;
