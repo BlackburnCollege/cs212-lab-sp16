@@ -1,0 +1,17 @@
+This one can be a bit difficult as many parts require an exception catch to work
+
+you'll need to import this library's player package and java's io package
+
+
+first you'll need to make a new File object, FileInputStream object, and Player object
+
+obviously for the File you give it the file path when you initialize it
+
+then you pass the File as an argument when you initialize the File input stream
+
+next pass the FileInputStream as an argument when you initialize the Player
+
+Player and FileInputStream need to be placed in a try-catch block to work
+
+
+Finally you just call the play method for player, which also needs to be in a try-catch block 

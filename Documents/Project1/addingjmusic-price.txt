@@ -1,0 +1,5 @@
+To download JMusic go to http://explodingart.com/jmusic/
+It will download a jar file only you have to use the webpage
+to see the documentation of the classes used.
+Then I added the jar file to my library to use.
+Import the jar file into your package that you will use.

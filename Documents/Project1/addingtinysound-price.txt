@@ -1,0 +1,3 @@
+Download TinySound at https://github.com/simplay/bofrev/tree/master/lib/tinysound-1.1.1
+Then download the jar files found there
+add them to your library and then import them to your package

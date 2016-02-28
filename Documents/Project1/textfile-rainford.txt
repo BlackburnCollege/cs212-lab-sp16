@@ -1,0 +1,18 @@
+TINYSOUND
+I found the TinySound library at https://github.com/finnkuusisto/TinySound
+This library can play wav files and ogg files.
+It is relatively easy to use and doesn't take that much coding.
+All you need to do is download the jar files and add them to your package.
+To play ogg files you need to add the jar files that are found in the lib
+folder.
+
+PLAYWAV
+I found how to write the playwav method from a youtube video: 
+https://www.youtube.com/watch?v=DEqMpzrXDD4
+I don't think that this is very easy to use because each time you want to play
+a wav file a screen pops up and you have to find the file in your computer.
+
+JLAYER
+I found this at: http://www.javazoom.net/javalayer/sources.html
+It plays mp3 files is pretty easy to use and this youtube video is helpful for 
+setting it up: https://www.youtube.com/watch?v=f-7cgX_I220

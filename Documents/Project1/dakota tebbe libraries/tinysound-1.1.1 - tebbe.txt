@@ -1,0 +1,35 @@
+TinySound is probably the best because it can read both wav and ogg files
+
+with the same code
+
+
+however, for it to read ogg files you have to include the jorbis, vorbisspi, and
+
+tritonus_share libraries with your other libraries
+
+you won't need to import them, but it can't read ogg files without them
+
+
+for this you need to import the library's tinysound package and Java's File class
+
+
+Create a new File object, passing the filepath as an argument for the constructor
+
+next call the TinySound static method init
+
+now make a new object of Music, pass in your File object as an argument for the
+
+TinySound static method loadMusic
+
+now call the method play on your Music object, passing it a boolean as an argument
+
+this boolean tells it whether or not to loop
+
+
+for it to play you need to pause the program somehow while it plays, you could do
+
+this with the using the loop method from thread, but personally, I used the Music
+
+object's playing method, which returns a boolean true if the song is playing, 
+
+inside a while loop so it would play only as long as it needed to.
