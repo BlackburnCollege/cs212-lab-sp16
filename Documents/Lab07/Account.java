@@ -79,12 +79,12 @@ public class Account {
         
         // 1/3 of time, or if the max number of Account objects have been
         // created, return an existing Account object
-        if(makeNew == 0 || EXTANT.size() >= MAXSIZE) {
+        if((makeNew == 0 && EXTANT.size() > 0) || EXTANT.size() >= MAXSIZE) {
             int tmp = RANDOM.nextInt(EXTANT.size());
             Account a = (Account) EXTANT.get(tmp);
             if(LOG) System.err.println("Existing - Id: " + a.getId() + " Element: " + tmp);
             return a;
-        } else if (makeNew == 1 || makeNew == 2) {
+        } else if (EXTANT.size() < 1 || makeNew == 1 || makeNew == 2) {
             
             // 2/3 of the time, create a new Account object
             while(true){
