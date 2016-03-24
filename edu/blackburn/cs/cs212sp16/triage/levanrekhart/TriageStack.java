@@ -4,21 +4,31 @@
  * and open the template in the editor.
  */
 package edu.blackburn.cs.cs212sp16.triage.levanrekhart;
+
 import edu.blackburn.cs.cs212sp16.er.*;
+
 /**
  *
  * @author arthur.levan
  */
 public class TriageStack extends AbstractStack {
 
+    private ListElement top = null;
+
     @Override
     public void push(Patient ptnt) {
+        this.top = new ListElement(ptnt);
+        this.top.setNext(top);
         increment();
     }
 
     @Override
     public Patient pop() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        decrement();
+        if(this.top.getPatient() == null){
+            return null;
+        }
+        return this.top.getPatient();
     }
-    
+
 }
