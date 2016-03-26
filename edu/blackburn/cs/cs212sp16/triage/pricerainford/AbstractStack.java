@@ -16,13 +16,53 @@ you are confident that it works correctly.o change this license header, choose L
  */
 package edu.blackburn.cs.cs212sp16.triage.pricerainford;
 
+import edu.blackburn.cs.cs212sp16.er.*;
+
 /**
  *
  * @author water
  */
-class TriageStack {
+public abstract class AbstractStack {
     
-    public TriageStack() {
+    protected ListElement top;
+    
+    public AbstractStack() {
         super();
     }
+    
+    public final int depth() {
+        return 0;
+    }
+    
+    protected final void increment() {
+        
+    }
+        
+    protected final void decrement() {
+        
+    }
+    
+    /**
+     * Should create a new ListElement, point that element's nextElement to the 
+     * current top element of the stack and increment depth
+     * @param add 
+     */
+    public abstract void push(Patient add);
+    
+    /**
+     * Should return the content of the current top element of the stack and
+     * decrement depth unless top == null, in which case return null and don't 
+     * decrement.
+     * @return 
+     */
+    public abstract Patient pop();
+    
+    public double health() {
+        return 0.0;
+    }
+    
+    public int priority() {
+        return 0;
+    }
+    
 }
