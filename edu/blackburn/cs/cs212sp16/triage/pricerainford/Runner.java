@@ -45,7 +45,7 @@ public class Runner {
             }
         }
         
-        AbstractStack triageStack = new AbstractStack();
+        //AbstractStack triageStack = new AbstractStack();
         
         
     }
