@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.blackburn.cs.cs212sp16.roshambo.vanwormerlevan.RoshamboController">
+   <children>
+      <TextField fx:id="player" layoutX="210.0" layoutY="31.0" />
+      <TextField fx:id="tie" layoutX="210.0" layoutY="82.0" />
+      <TextField fx:id="ai" layoutX="210.0" layoutY="130.0" />
+      <TextField fx:id="whoWins" layoutX="210.0" layoutY="175.0" />
+      <Button layoutX="29.0" layoutY="216.0" mnemonicParsing="false" onAction="#handleRock">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Documents/Lab09/images/rock.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="414.0" layoutY="216.0" mnemonicParsing="false" onAction="#handleScissor">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Documents/Lab09/images/scissors.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="220.0" layoutY="216.0" mnemonicParsing="false" onAction="#handlePaper">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Documents/Lab09/images/paper.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
