@@ -11,10 +11,10 @@
 
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.blackburn.cs.cs212sp16.roshambo.vanwormerlevan.RoshamboController">
    <children>
-      <TextField fx:id="player" layoutX="210.0" layoutY="31.0" />
-      <TextField fx:id="tie" layoutX="210.0" layoutY="82.0" />
-      <TextField fx:id="ai" layoutX="210.0" layoutY="130.0" />
-      <TextField fx:id="whoWins" layoutX="210.0" layoutY="175.0" />
+      <TextField fx:id="player" layoutX="229.0" layoutY="31.0" />
+      <TextField fx:id="tie" layoutX="229.0" layoutY="79.0" />
+      <TextField fx:id="ai" layoutX="229.0" layoutY="126.0" />
+      <TextField fx:id="whoWins" layoutX="229.0" layoutY="169.0" />
       <Button layoutX="29.0" layoutY="216.0" mnemonicParsing="false" onAction="#handleRock">
          <graphic>
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
@@ -42,5 +42,25 @@
             </ImageView>
          </graphic>
       </Button>
+      <TextField fx:id="playerMove" layoutX="38.0" layoutY="19.0" />
+      <Button layoutX="414.0" layoutY="53.0" mnemonicParsing="false" prefHeight="147.0" prefWidth="137.0">
+         <graphic>
+            <ImageView fitHeight="139.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../cs%20pictures/Kevin_Coogan.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="30.0" layoutY="54.0" mnemonicParsing="false">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../cs%20pictures/AIbEiAIAAABECLD3l9CX-au8-AEiC3ZjYXJkX3Bob3RvKihjN2U5YTQwNjhhZGYwMDg3MTZiNDdlZjNlMDA3NjdkMDZkNWNjNmNhMAF8aDkdthfZEZOP-OD4Iuw3FFL1oQ.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TextField fx:id="aiMove" layoutX="414.0" layoutY="19.0" />
    </children>
 </AnchorPane>
