@@ -17,6 +17,6 @@ public class TriageStack extends AbstractStack{
     @Override
     public void push(Patient add){
          ListElement newElement= new ListElement(add);
-         newElement.setNext();
+         newElement.setNext(newElement);
     }
 }

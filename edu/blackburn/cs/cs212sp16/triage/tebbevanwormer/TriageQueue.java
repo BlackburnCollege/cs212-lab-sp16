@@ -9,6 +9,6 @@ import edu.blackburn.cs.cs212sp16.er.*;
  *
  * @author dakota.tebbe
  */
-public class TriageQueue extends AbstractQueue {
+public class TriageQueue {
     
 }
