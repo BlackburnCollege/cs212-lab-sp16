@@ -18,11 +18,18 @@ public class MoveRunner {
         Move ms2 = Move.SCISSORS;
         if (!mr.equals(mp)) {
             System.out.println(mr + " is not equal to "  + mp);
+        } else {
+            System.out.println(mr + " is equal to" + mp); 
         }
         
         if (ms != ms2) {
             System.out.println(ms + "!=" + ms2); 
+        } else {
+            System.out.println(ms + "==" + ms2);      
         }
+        
+        System.out.println(ms.hashCode());
+        System.out.println(ms2.hashCode());
     }
 
 }
